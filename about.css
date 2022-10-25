@@ -1,0 +1,24 @@
+*{
+    /* Daya reset para uwat extra spacing */
+    /* 1rem equals imaw it 16px */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: aliceblue;
+    height: 80px;
+}
+.nav a{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.nav a:hover{
+    text-decoration: underline;
+}

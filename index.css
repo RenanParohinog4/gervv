@@ -1,0 +1,52 @@
+*{
+    /* Daya reset para uwat extra spacing */
+    /* 1rem equals imaw it 16px */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: aliceblue;
+    height: 80px;
+}
+.nav a{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.video-container video{
+    position:  absolute;
+     height: 100vh;
+     top: 0;
+     left: 0;
+     z-index: -1;
+     width: 100%;
+     object-fit: cover;
+}
+.hero {
+    min-height: calc(100vh - 60px);
+    /* background: url("./images/hero-img.jpg") center/cover no-repeat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner {
+    text-align: center;
+    background: rgba(216, 206, 252, 0.8);
+    display: inline-block;
+    padding: 1rem;
+    width: 360px;
+  }
+  .banner-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
